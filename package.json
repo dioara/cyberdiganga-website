@@ -1,0 +1,36 @@
+{
+  "name": "cyberdiganga-website",
+  "version": "1.0.0",
+  "description": "Professional website for CyberDiganga Consulting Limited - Cybersecurity Solutions",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "cybersecurity",
+    "consulting",
+    "website",
+    "static",
+    "responsive",
+    "professional"
+  ],
+  "author": "CyberDiganga Consulting Limited",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/cyberdiganga-website.git"
+  },
+  "homepage": "https://cyberdiganga-website.vercel.app",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
